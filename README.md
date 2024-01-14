@@ -1,22 +1,30 @@
 # # Yahtzee Project
 
-## Opis
-Ovaj projekt predstavlja implementaciju igre Yahtzee u C++ programskom jeziku. Cilj je stvoriti funkcionalnu verziju Yahtzee igre koja se može igrati na konzoli.
+## Description
+This is a console-based implementation of the popular game Yahtzee written in C++.
 
-## Funkcionalnosti
-- Bacanje kocki
-- Zadržavanje određenih kocki
-- Odabir kategorije za bodovanje
-- Izračunavanje bodova prema Yahtzee pravilima
-- Više igrača
+## Functionalities
+- Playing a game from 1 - 5 players
+- Throwing dice
+- Rerolling dice and choosing to keep some of them
+- Choosing scoring category for points
+- Calculating points by Yahtzee rules
+- Playing a game from 1 - 5 players
 
-## Upute za instalaciju
-1. Preuzmite izvorni kod
-2. Kompajlirajte izvorni kod
-3. Pokrenite izvršnu datoteku
+## How to play
+1. Download the code needed for the game
+2. Run the code using a C++ compiler
+3. Follow On-Screen Instructions to play the game
 
-## Kako koristiti
-1. Pokrenite program
-2. Slijedite upute na ekranu za bacanje/zadržavanje kocki
-3. Odaberite kategoriju za bodovanje
-4. Igra se ponavlja za svakog igrača
+## Gameplay Rules
+
+    Each player takes turns rolling five dice.
+    Players can choose to reroll some or all of the dice up to three times.
+    After each roll, the player selects a category to score the roll.
+
+## Project Structure
+
+    yahtzeeGame.cpp: Main file containing the game loop and user interactions.
+    yahtzeePlayer.cpp: Class implementation for the Yahtzee player.
+    yahtzeeScoreCard.cpp: Class implementation for the Yahtzee score card.
+    yahtzeeDice.cpp: Class implementation for the Yahtzee dice.
